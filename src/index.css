@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-ink: #0b0b0a;
+  --color-accent: #d6ff3f;
+}
+
+body {
+  margin: 0;
+  background: var(--color-ink);
+  font-family: var(--font-display);
+}
